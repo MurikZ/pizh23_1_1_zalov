@@ -11,9 +11,7 @@ import matplotlib.pyplot as plt
 call_count = 0
 
 
-# -------------------------------
 #   НАИВНАЯ РЕКУРСИЯ
-# -------------------------------
 def fib_naive_count(n: int) -> int:
     """Наивная рекурсивная версия с подсчётом вызовов."""
     global call_count
@@ -33,9 +31,7 @@ def reset_count():
     call_count = 0
 
 
-# -------------------------------
 #   МЕМОИЗИРОВАННАЯ РЕАЛИЗАЦИЯ
-# -------------------------------
 @lru_cache(maxsize=None)
 def fib_memoized(n: int) -> int:
     """Мемоизированная версия вычисления Фибоначчи."""
@@ -48,9 +44,7 @@ def fib_memoized(n: int) -> int:
     return fib_memoized(n - 1) + fib_memoized(n - 2)
 
 
-# -------------------------------
 #   ИЗМЕРЕНИЕ ВРЕМЕНИ
-# -------------------------------
 def measure(func, n: int):
     """Возвращает (результат, время, число вызовов)."""
     global call_count
@@ -61,9 +55,7 @@ def measure(func, n: int):
     return result, end - start, call_count
 
 
-# -------------------------------
 #   ПОСТРОЕНИЕ ГРАФИКА
-# -------------------------------
 def plot_times(ns, naive_times, memo_times):
     plt.figure(figsize=(10, 6))
     plt.plot(ns, naive_times, marker='o', label='Наивный')
@@ -78,27 +70,26 @@ def plot_times(ns, naive_times, memo_times):
     print("График сохранён в файл fib_graph.png")
 
 
-# -------------------------------
-#   ОСНОВНОЙ ЗАПУСК
-# -------------------------------
+
+#   ОСНОВНОЙ ЗАПУСК-
 if __name__ == "__main__":
 
     print("\n=== Сравнение для n = 35 ===")
 
-    # ---- Наивный ----
+    #  Наивный
     naive_res, naive_time, naive_calls = measure(fib_naive_count, 35)
     print(f"Наивный результат: {naive_res}")
     print(f"Время работы: {naive_time:.5f} сек")
     print(f"Количество рекурсивных вызовов: {naive_calls}")
 
-    # ---- Мемоизированный ----
+    # Мемоизированный
     fib_memoized.cache_clear()
     memo_res, memo_time, memo_calls = measure(fib_memoized, 35)
     print(f"\nМемоизированный результат: {memo_res}")
     print(f"Время работы: {memo_time:.5f} сек")
     print(f"Количество рекурсивных вызовов: {memo_calls}")
 
-    # ---- Построение графика для разных n ----
+    # Построение графика для разных n
     print("\n=== Построение графика ===")
     test_ns = [5, 10, 15, 20, 25, 30, 35]
     naive_times = []
