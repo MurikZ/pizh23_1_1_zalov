@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74e0b3eb-cc57-4d42-ad9e-70f1d63ef95b" name="Changes" comment="4 laba">
+      <change afterPath="$PROJECT_DIR$/laba05/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba05/hash_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba05/hash_table_chaining.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba05/hash_table_open_addressing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba05/plot_hash_graphs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba05/plot_results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba06/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba06/analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba06/binary_search_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba06/tree_traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba07/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba07/heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba07/heapsort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba07/plot_bench.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba07/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba07/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laba03/memoization.py" beforeDir="false" afterPath="$PROJECT_DIR$/laba03/memoization.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +56,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.linked_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.memoization.executor&quot;: &quot;Run&quot;,
-    &quot;Python.performance_analysis.executor&quot;: &quot;Run&quot;,
-    &quot;Python.performance_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plot_results.executor&quot;: &quot;Run&quot;,
-    &quot;Python.recursion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.recursion_tasks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.search_comparison.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_solutions.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.analysis.executor": "Run",
+    "Python.binary_search_tree.executor": "Run",
+    "Python.hash_functions.executor": "Run",
+    "Python.hash_table_chaining.executor": "Run",
+    "Python.hash_table_open_addressing.executor": "Run",
+    "Python.linked_list.executor": "Run",
+    "Python.memoization.executor": "Run",
+    "Python.performance_analysis.executor": "Run",
+    "Python.performance_test.executor": "Run",
+    "Python.plot_bench.executor": "Run",
+    "Python.plot_hash_graphs.executor": "Run",
+    "Python.plot_results.executor": "Run",
+    "Python.recursion.executor": "Run",
+    "Python.recursion_tasks.executor": "Run",
+    "Python.search_comparison.executor": "Run",
+    "Python.task_solutions.executor": "Run",
+    "Python.tests.executor": "Run",
+    "Python.tree_traversal.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -161,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763321825755</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="4 laba">
+      <option name="closed" value="true" />
+      <created>1763371988221</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1763371988222</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
